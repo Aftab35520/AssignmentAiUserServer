@@ -6,7 +6,6 @@ const path = require('path');
 const fs = require('fs');
 const chromedriver = require('chromedriver');
 const { ServiceBuilder } = require('selenium-webdriver/chrome');
-const a=require("")
 const service = new ServiceBuilder(chromedriver.path)
 
 const EMAIL = 'aftab.alam355201@gmail.com';
