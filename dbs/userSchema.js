@@ -10,7 +10,11 @@ const userSchema=new mongoose.Schema({
   fontPath: { type: String, default: "" },
   fontData: { type: Buffer, default: null }, // Store font binary directly
   fontMimeType: { type: String, default: "" }, // e.g., "font/ttf"
-  fontName: { type: String, default: "" }
+  fontName: { type: String, default: "" },
+   paymentDate: { type: Date },
+  paymentId: { type: String }, // razorpay_payment_id
+  orderId: { type: String },   // razorpay_order_id
+  paymentSignature: { type: String } 
 }
 )
 

@@ -12,7 +12,8 @@ const EMAIL = 'aftab.alam355201@gmail.com';
 const PASSWORD = '#Aftab35520';
 
 
-
+// docker build -t my-font-generator .
+// docker run -p 5000:5000 my-font-generator
 
 // const options = new chrome.Options()
 //   .addArguments('--headless', '--no-sandbox', '--disable-dev-shm-usage')
